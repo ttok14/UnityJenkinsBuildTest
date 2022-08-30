@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TestGroup_Prefab
+  m_EditorClassIdentifier: 
+  m_GroupName: TestGroup_Prefab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5f3e3e0ca475ce94baa86a4f6eeae181
+  m_SerializeEntries:
+  - m_GUID: 3b673fa1f929cf84c87669f88124c83e
+    m_Address: Sphere
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Main
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f8bae8e6efe00c3408799eadd657626c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 658e3fb5a998db945aad94418a6d345e, type: 2}
+    - {fileID: 11400000, guid: 03602b51fc732614eb12badc9258908e, type: 2}

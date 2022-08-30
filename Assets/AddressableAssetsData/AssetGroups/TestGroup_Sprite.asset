@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TestGroup_Sprite
+  m_EditorClassIdentifier: 
+  m_GroupName: TestGroup_Sprite
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f15ba1a8a686d384fa543c25713b18ca
+  m_SerializeEntries:
+  - m_GUID: aa6d371a8097fd4468159da63ff3cac5
+    m_Address: TestTex
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Main
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f8bae8e6efe00c3408799eadd657626c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 49bc9e0efd078094eb8d0adffd549e5b, type: 2}
+    - {fileID: 11400000, guid: a9f13d237bdfd2c4687c3a793ac13d2a, type: 2}
