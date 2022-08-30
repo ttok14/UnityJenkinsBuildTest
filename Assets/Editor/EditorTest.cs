@@ -13,7 +13,10 @@ public class EditorTest : EditorWindow
 {
     public static void DoBuild()
     {
-        ProcessStartInfo info = new ProcessStartInfo($"{Directory.GetParent(Application.dataPath).FullName}/Test.sh");
+        string shPath = $"{Directory.GetParent(Application.dataPath).FullName}/Test.sh";
+        Debug.Log("ShPath : " + shPath);
+
+        ProcessStartInfo info = new ProcessStartInfo($"{shPath}");
         var process = System.Diagnostics.Process.Start(info);
         process.WaitForExit();
     }
